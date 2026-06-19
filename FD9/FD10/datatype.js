@@ -31,8 +31,8 @@ console.log(b);
 console.log(typeof(b));
 
 //symbole
-let id=symbole('nitu')
-let id2=symbole('nitu')
+let id=Symbol('nitu');
+let id2=Symbol('nitu');
 console.log(id);
 console.log(id2);
 console.log(id==id2);
