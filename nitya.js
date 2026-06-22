@@ -1,1 +1,0 @@
-console.log("nitya singh");
