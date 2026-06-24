@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light On Off</title>
+</head>
+<body>
+    <img id="photo" src="https://www.w3schools.com/js/pic_bulboff.gif" alt=""><br>
+    <button id="btnOn" onclick="On()">Turn On</button>
+    <button id="btnOff" onclick="Off()">Turn Off</button>
+
+    <script>
+        function On(){
+            let photo=document.querySelector("#photo")
+            photo.src="https://www.w3schools.com/js/pic_bulbon.gif"
+        }
+
+
+        function Off(){
+            let photo=document.querySelector("#photo")
+            photo.src="https://www.w3schools.com/js/pic_bulboff.gif"
+        }
+    </script>
+    
+</body>
+</html>
