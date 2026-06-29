@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+</head>
+<body>
+    <h1 style="color: blue;text-align: center; ">Welcome to my website</h1>
+     <div>
+        <h3  id="heading" style="color: rgba(16, 138, 194, 0.438);background-color: antiquewhite; border: 3px solid black ;padding: 20px;text-align: center;">
+            Click to Generate
+        </h3>
+     </div> 
+
+    </div>
+     <div style="display: flex; justify-content:center ; align-items: center;height: 500px;">
+        <button style="padding: 20px;" onclick="generate()">Generate Quote</button>
+
+    </div>
+        <script>
+
+        let color =["If you tell the truth, you don't have to remember anything ","It is better to be hated for what you are than to be loved for what you are not"
+            ,"We accept the love we think we deserve"]
+
+        
+    function generate (){ 
+let heading = document.querySelector("#heading") 
+ let random=Math.floor(Math.random ()*(color.length))
+     heading.innerHTML=color[random] 
+    }
+   </script>
+    
+</body>
+</html>
