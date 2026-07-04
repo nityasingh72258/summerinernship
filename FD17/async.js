@@ -1,4 +1,4 @@
-//
+//asynchronous
 function starting(){
     console.log("add milk and watter and put on stove");
 }

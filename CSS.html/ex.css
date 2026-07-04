@@ -1,0 +1,12 @@
+#heading{
+    color: aqua;
+    border: 5px solid blue;
+    background-color: red;
+    border-radius: 5px;
+}
+.pr{
+     color: brown;
+    border: 5px solid black;
+    background-color:yellowgreen;
+    border-radius: 6px;
+}
