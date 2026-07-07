@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+        
+        #parent{
+            height: 400px;
+            width: 100%;
+            border: 8px solid blueviolet;
+            background-color: darksalmon;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 90px;
+        }
+
+        .child{
+            height: 100px;
+            width: 20%;
+            border: 5px solid black;
+            background-color: yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #parent2{
+           padding: 20px;
+           margin-top: 50px;
+           border: 4px solid red;
+           background-color: aqua;
+        }
+        .course{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="parent">
+<div class="child"><h1>Nitya</h1></div>
+<div class="child"><h1>Kiran</h1></div>
+<div class="child"><h1>Vandana</h1></div>
+    </div>
+
+
+<div id="parent2">
+     <h1 class="course">course</h1>
+
+       <div id="parent">
+<div class="child"><h1>CS</h1></div>
+<div class="child"><h1>CIVIL</h1></div>
+<div class="child"><h1>ME</h1></div>
+    </div>
+</div>
+
+</body>
+</html>
