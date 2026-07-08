@@ -2,11 +2,44 @@
   margin: 0%;
   padding: 0%;
   background-color: blanchedalmond;
+  text-align: center;
+  
+}
+.Container{
+  width: 30%;
+  background-color: chocolate;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(111, 0, 255);
+}
+.Container img{
+  height: 100px;
+  width: 100px;
+  margin: 10px 0;
+  border-radius: 50%;
+}
+.Container p{
+  background-color: rgb(210, 105, 30);
+  margin-top: 5px;
+}
+.Container h1{
+  background-color: rgb(210, 105, 30);
+  margin-top: 5px;
+}
+.Container button{
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: chartreuse;
+  color: rgb(27, 36, 44);
 }
 .heading{
-  
-  color: rgb(228, 31, 139);
-}
-#pr{
-  color: brown;
+  display: flex;  
 }
