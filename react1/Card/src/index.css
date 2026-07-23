@@ -5,11 +5,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: #111;
-}
+  body {
+  background-image: url("https://images.unsplash.com/photo-1531256379416-9f000e90aacc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM0fHx8ZW58MHx8fHx8");
+  background-size: cover;
+  background-color: aliceblue;
+   
+}  
 
-.container {
+/*.container {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -107,4 +110,134 @@ body {
 
 .apply-btn:hover {
   background: #333;
+}*/
+
+/* //routes css */
+
+.About h1{
+    box-shadow: 3px 3px 15px rgb(240, 113, 134);
+    
+    display: flex;
+    justify-content: center;
+    text-decoration: dotted underline;
+
 }
+
+.Service h1{
+    box-shadow: 3px 3px 15px rgb(164, 208, 243);
+text-shadow: 2px 3px 14px rgba(211, 152, 64, 0.651);
+display: flex;
+    justify-content: center;
+    text-decoration: dotted underline;
+}
+.nav{
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  gap: 50px;
+  
+}
+/* for Home page*/
+.title{
+    text-align:center;
+    margin-top:20px;
+    font-size:40px;
+    text-decoration: underline;
+    
+}
+
+.card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px;
+    flex-wrap:wrap;
+    
+}
+
+.card{
+    width:250px;
+    background:rgba(255, 255, 255, 0.274);
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 5px 15px gray;
+    text-align:center;
+    transition:0.3s;
+    
+}
+
+.card button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:rgba(13, 188, 241, 0.521);
+    color:rgba(255, 255, 255, 0.87);
+    cursor:pointer;
+}
+/*for About page*/
+.about-container{
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(236, 172, 172, 0.575);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px purple;
+    text-align: center;
+}
+.about-container h1{
+    color: rgb(226, 162, 43);
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: dotted underline black;
+}
+
+.about-container p{
+    font-size: 18px;
+    color: #555555fa;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-box{
+    margin-top: 30px;
+    padding: 20px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+/*for service page*/
+.service{
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.514);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(241, 15, 15);
+    text-align: center;
+}
+
+.service h1{
+    color: rgb(89, 6, 167);
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+.service ul{
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+.service li{
+    background: #d1cdcd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+}
+
+
+
+
+  
